@@ -19,20 +19,6 @@
 * **Google Fonts:** "Sora" and "Poppins" fonts are used for a modern and clean typography.
 * **Font Awesome:** For scalable vector icons used throughout the design. (Used via CDN)
 
-## Installation and Setup
-
-To run this project locally, simply follow these steps:
-
-1.  **Clone the repository:**
-    ```bash
-    git clone <your-repository-link-here>
-    ```
-2.  **Navigate to the project directory:**
-    ```bash
-    cd <your-project-folder>
-    ```
-3.  **Open `index.html` in your browser:**
-    You can simply double-click the `index.html` file, or open it using your preferred web browser.
 
 ## Usage
 
