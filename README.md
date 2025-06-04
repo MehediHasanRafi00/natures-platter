@@ -46,5 +46,4 @@ Just open the `index.html` file in your browser or use VS Code’s Live Server e
 
 ### Made with ❤️ by [MehediHasanRafi00](https://github.com/MehediHasanRafi00)
 
-```
 
