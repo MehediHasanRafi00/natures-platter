@@ -4,6 +4,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Natures Platter</title>
+    <style>
+      /**Text Gradient*/
+      .text-gradient:hover {
+        color: #405ce6;
+        background-image: linear-gradient(
+          175deg,
+          #405ce6 10%,
+          #5851db 20%,
+          #843ab5 30%,
+          #e02f6a 40%,
+          #fc1c1c 50%,
+          #f56140 60%,
+          #f77736 70%,
+          #fcb044 80%,
+          #ffdb80 90%
+        );
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+    </style>
     <link
       rel="shortcut icon"
       href="./assets/leaves-logo.png"
@@ -36,21 +57,26 @@
       <header>
         <div class="w-[85%] mx-auto flex justify-between items-center py-6">
           <div>
-            <img
-              class="w-[154.04px] hidden sm:block"
-              src="./assets/logo-green.png"
-              alt=""
-            />
+            <a href=""
+              ><img
+                class="w-[154.04px] hidden sm:block"
+                src="./assets/logo-green.png"
+                alt=""
+            /></a>
           </div>
 
           <div class="hidden sm:block">
-            <a class="text-xl mr-8" href="#">Product</a>
-            <a class="text-xl mr-8" href="#">Services</a>
-            <a class="text-xl mr-8" href="#">Contact us</a>
+            <a class="text-xl mr-8 hover:text-[#179800]" href="#">Product</a>
+            <a class="text-xl mr-8 hover:text-[#179800]" href="#">Services</a>
+            <a class="text-xl mr-8 hover:text-[#179800]" href="#">Contact us</a>
           </div>
           <div class="hidden sm:block">
-            <i class="fa-solid fa-magnifying-glass text-[20px] mr-6"></i>
-            <i class="fa-solid fa-cart-shopping text-[20px] mr-6"></i>
+            <i
+              class="fa-solid fa-magnifying-glass text-[20px] mr-6 hover:text-[#179800] cursor-pointer"
+            ></i>
+            <i
+              class="fa-solid fa-cart-shopping text-[20px] mr-6 hover:text-[#179800] cursor-pointer"
+            ></i>
             <button
               class="py-[10px] px-[30px] mr-3 rounded-lg border-2 text-[20px] border-[#179800] hover:bg-[#179800] hover:text-white hover:shadow-lg cursor-pointer"
             >
@@ -469,31 +495,33 @@
             class="flex flex-col sm:flex-row justify-between sm:items-center"
           >
             <div>
-              <img src="./assets/logo-white.png" alt="" />
+              <a href=""><img src="./assets/logo-white.png" alt="" /></a>
               <p class="text-xl text-[#ffffffb3] mt-3">
                 Discover a world of treats, toys, and <br />
                 essentials handpicked for your furry friends
               </p>
             </div>
             <div class="text-[#EFEBE3] flex flex-col text-xl mt-4 sm:mt-0">
-              <a class="  " href="">Product</a>
-              <a class="sm:mt-8" href="">Services</a>
-              <a class="sm:mt-8" href="">Contact us</a>
+              <a class="hover:text-black" href="">Product</a>
+              <a class="sm:mt-8 hover:text-black" href="">Services</a>
+              <a class="sm:mt-8 hover:text-black" href="">Contact us</a>
             </div>
             <div class="text-[#EFEBE3] text-xl">
-              <p>Follow Us</p>
+              <p class="">Follow Us</p>
               <div class="text-2xl mt-3">
                 <a href="https://www.facebook.com/"
-                  ><i class="fa-brands fa-facebook"></i
+                  ><i class="fa-brands fa-facebook hover:text-[#1877F2]"></i
                 ></a>
                 <a href="https://www.instagram.com/"
-                  ><i class="ml-7 fa-brands fa-instagram"></i
+                  ><i class="ml-7 fa-brands fa-instagram text-gradient"></i
                 ></a>
                 <a href="https://www.linkedin.com/"
-                  ><i class="ml-7 fa-brands fa-linkedin"></i
+                  ><i
+                    class="ml-7 fa-brands fa-linkedin hover:text-[#0077B5]"
+                  ></i
                 ></a>
                 <a href="https://www.youtube.com/"
-                  ><i class="ml-7 fa-brands fa-youtube"></i
+                  ><i class="ml-7 fa-brands fa-youtube hover:text-[#FF0000]"></i
                 ></a>
               </div>
             </div>
